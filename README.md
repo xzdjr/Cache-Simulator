@@ -16,19 +16,19 @@ A C++ cache hierarchy simulator for CSC3060 Project 4. The simulator models an L
 
 ```text
 .
-├── main.cpp                 # Command-line driver
-├── memory_hierarchy.*       # Cache and memory simulation logic
-├── repl_policy.*            # Replacement policy implementations
-├── prefetcher.*             # Prefetcher implementations
-├── interfaces.h             # Shared simulator interfaces
-├── defs.h                   # Shared data structures and constants
-├── Makefile                 # Build and run targets
-├── trace_sanity.txt         # Small sanity-check trace
-├── my_trace.txt             # Personalized experiment trace
-├── trace_analyzer.py        # Trace statistics helper
-├── trace_generator/
-│   └── workload_gen.cpp     # Workload generator source
-└── report.md                # Project report and experiment notes
+|-- main.cpp                 # Command-line driver
+|-- memory_hierarchy.*       # Cache and memory simulation logic
+|-- repl_policy.*            # Replacement policy implementations
+|-- prefetcher.*             # Prefetcher implementations
+|-- interfaces.h             # Shared simulator interfaces
+|-- defs.h                   # Shared data structures and constants
+|-- Makefile                 # Build and run targets
+|-- trace_sanity.txt         # Small sanity-check trace
+|-- my_trace.txt             # Personalized experiment trace
+|-- trace_analyzer.py        # Trace statistics helper
+|-- trace_generator/
+|   `-- workload_gen.cpp     # Workload generator source
+`-- report.md                # Project report and experiment notes
 ```
 
 ## Requirements
