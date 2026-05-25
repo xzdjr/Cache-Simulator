@@ -1,0 +1,23 @@
+# Build outputs
+*.o
+cache_sim
+cache_sim.exe
+sim
+trace_generator/workload_gen
+trace_generator/workload_gen.exe
+
+# Packaged submissions and local exports
+*.zip
+*.pdf
+*.xls
+*.xlsx
+
+# Editor and OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python cache files
+__pycache__/
+*.py[cod]
